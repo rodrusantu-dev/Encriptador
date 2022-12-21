@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+    <!--CONFIGURAÇÕES INTERNAS DO HTML-->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bizurado DEV - Encriptador</title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./css/cabecalho.css"> 
+        <link rel="stylesheet" href="./css/footer.css">  
+        <link rel="stylesheet" href="./css/reset.css"> 
+        <link rel="stylesheet" href="./css/style.css">   
+        <script src="./js/script.js" defer></script>
+        <link rel="shortcut icon" href="./img/favicon-bizurado.ico" type="image/x-icon">   
+    </head>
+
+    <body>
+            <header class="container-cabecalho">   
+                <img class="logo-menor" src="./img/logo-home2.png" alt="bizuradodev-logo"></a> 
+            <h1>ENCRIPTADOR</h1>
+            </header>
+
+            <p class="intro">"Sua conversa mais SEGURA!"</p>
+
+            <div id="aviso"></div>
+            <div id="txt">
+                <div></div>
+                <div>
+                    <textarea class="txts" rows="6" id="entrada" placeholder="Digite o texto aqui" autofocus="true" required></textarea>
+                </div>
+                <div>
+                    <textarea class="txts" rows="6" id="saida" placeholder="Saída Criptografada" disabled></textarea>
+                </div>
+                <div></div>
+            </div>
+            <div id="troca">
+                <div id="alerta">
+                    <div id="alerta1">
+                        <p>Apenas letras minúsculas e sem Acento!</p>
+                    </div>
+                </div>
+                
+                <div id="botoes">
+                    <button id="criptografar" class="btns">criptografar</button>
+                    <button id="descriptografar" class="btns">descriptografar</button>
+                    <button id="copiaECola" class="btns">copia e cola</button>
+                    <button id="limpar" class="btns">Limpar</button> 
+                </div>
+            </div>
+    </body>
+
+    <!--FOOTER DO SITE-->
+    <footer class="footer">
+        <p>Criado por Rodrigo Menezes - 2022</p>
+       
+    </footer>
+
+</html>

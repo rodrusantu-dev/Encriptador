@@ -1,0 +1,15 @@
+.container-cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eceeef;
+    border-bottom: 12px solid #a5bac5;    
+    padding-top: 20px;
+    padding-bottom: 20px;
+} 
+
+.logo-menor {
+    width: 180px;  
+}
+
