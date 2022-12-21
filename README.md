@@ -1,4 +1,4 @@
-# <div align="center">BIRUZARO DEV - ENCRIPTADOR</div>
+# <div align="center">Bizurado DEV - ENCRIPTADOR</div>
  
 ## <div align="center">Sua conversa mais segura!</div>
 ___
