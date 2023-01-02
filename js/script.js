@@ -4,15 +4,26 @@ btncriptografar.addEventListener('click', () => {
 
     function  encriptar(){  
 
-        var txtDigitado = document.getElementById("entrada").value;
+        const txtDigitado = document.getElementById("entrada").value;
     
             if (txtDigitado != "") {
-                var txtCripto = txtDigitado.split(/e/g).join("enter").split(/i/g).join("imes").split(/a/g).join("ai").split(/o/g).join("ober").split(/u/g).join("ufat");
+                const txtCripto = txtDigitado
+                .split(/e/g)
+                .join('enter')
+                .split(/i/g)
+                .join('imes')
+                .split(/a/g)
+                .join('ai')
+                .split(/o/g)
+                .join('ober')
+                .split(/u/g)
+                .join('ufat');
                 document.getElementById("saida").value = txtCripto;
                 document.getElementById("entrada").value = "";
                 document.getElementById("aviso").innerHTML = "&nbsp";
             } else {
-                document.getElementById("aviso").innerText = "Digite ou Cole Algo Para Criptografar";
+                document.getElementById("aviso").innerText = 
+                "Digite ou Cole Algo Para Criptografar";
             }
     }
 
@@ -24,22 +35,25 @@ btncriptografar.addEventListener('click', () => {
 let btndescriptografar = document.getElementById('descriptografar');   
 btndescriptografar.addEventListener('click', () => {
 
-    function  desencriptar(){  
-
-        var txtColado = document.getElementById("entrada").value;
-    
-        if (txtColado != "") {
-            var txtCripto = txtColado.replace(/enter/g, "e").replace(/imes/g, "i").replace(/ai/g, "a").replace(/ober/g, "o").replace(/ufat/g, "u");
-            document.getElementById("saida").value = txtCripto;
-            document.getElementById("entrada").value = "";
-            document.getElementById("aviso").innerHTML = "&nbsp";
-        } else {
-            document.getElementById("aviso").innerText = "Digite ou Cole Algo Para Descriptografar";
-        }
-    };
-
-    desencriptar()
-
+    const desencriptar = () => {
+    const txtColado = document.getElementById('entrada').value;
+  
+    if (txtColado !== '') {
+      const txtCripto = txtColado
+        .replace(/enter/g, 'e')
+        .replace(/imes/g, 'i')
+        .replace(/ai/g, 'a')
+        .replace(/ober/g, 'o')
+        .replace(/ufat/g, 'u');
+      document.getElementById('saida').value = txtCripto;
+      document.getElementById('entrada').value = '';
+      document.getElementById('aviso').innerHTML = '&nbsp';
+    } else {
+      document.getElementById('aviso').innerText =
+        'Digite ou Cole Algo Para Descriptografar';
+    }
+  };
+  desencriptar()
 });
 
 //*** BLOCO - COPIA E COLA ***
