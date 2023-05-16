@@ -1,16 +1,13 @@
-/*CSS PADRÃO DO HEADER - BIZURADO DEV*/
-.container-cabecalho {
+.head-geral {
+    background-color: #eceeef;  
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background-color: #eceeef;
-    border-bottom: 12px solid #a5bac5;    
-    padding-top: 20px;
-    padding-bottom: 20px;
-} 
+    padding-top: 10px;
+}
 
-.logo-menor {
-    width: 180px;  
+.logo-img {
+    width: 80px;  
 }
 

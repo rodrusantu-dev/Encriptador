@@ -1,17 +1,20 @@
 /*RESET A MARGEM PADRÃO DO NAVEGADOR*/
 * {
     margin: 0 0 0 0; 
-    font-family: 'roboto slab', serif; 
+    font-family:'roboto';
 }
 
 /*PADRONIZA OS TÍTULOS EM GERAL*/
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'roboto slab', serif;
     font-weight: 800;  
     padding-bottom: 20px; 
            
 }
 
+@font-face {
+    font-family:'roboto';
+    src: url('../assets/fonts/roboto.ttf');
+}
 
 
 

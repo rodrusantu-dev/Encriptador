@@ -54,7 +54,7 @@ body{
     margin-bottom: 15px;
 }
 .btns:hover {
-    box-shadow: 8px 8px 16px 0 rgba(34, 243, 51, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 18px 18px 16px 0 rgba(209, 28, 209, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 hr {
     max-width: 70%;
