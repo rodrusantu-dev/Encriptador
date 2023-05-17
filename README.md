@@ -1,7 +1,7 @@
 <h1 align="center">Encriptador JS</h1>
 
 <p align="center">
-    <img src="images/gitSiteHero.PNG" alt="Logo-Encriptador" width="960" height="400">
+    <img src="https://github.com/rodrusantu-dev/Encriptador/blob/6e614c87b3a9de4c5da83a9aec8b1fe0cc633bba/assets/img/gitprojeto.png" alt="Logo-Encriptador" width="960" height="450">
 </p>
 
 <p align="center">
