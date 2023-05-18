@@ -1,4 +1,3 @@
-//*** BLOCO - LIMPAR CAMPOS ***
 let btnlimpar = document.getElementById('limpar');   
 btnlimpar.addEventListener('click', () => {
 
@@ -12,3 +11,4 @@ btnlimpar.addEventListener('click', () => {
     limpar()
 
 });
+

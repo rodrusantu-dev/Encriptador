@@ -1,3 +1,4 @@
+//*** BLOCO - CRIPTOGRAFAR ***
 const btnCriptografar = document.getElementById('criptografar');
 const entrada = document.getElementById('entrada');
 const saida = document.getElementById('saida');

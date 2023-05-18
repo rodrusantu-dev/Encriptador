@@ -1,4 +1,4 @@
-//*** BLOCO - DESCRIPTOGRAFAR ***
+
 let btnDescriptografar = document.getElementById('descriptografar');   
 btnDescriptografar.addEventListener('click', () => {
 
@@ -22,3 +22,4 @@ btnDescriptografar.addEventListener('click', () => {
   };
   desencriptar()
 });
+

@@ -1,4 +1,4 @@
-//*** BLOCO - COPIA E COLA ***
+
 let btncopiaECola = document.getElementById('copiaECola');   
 btncopiaECola.addEventListener('click', () => {
 
@@ -14,3 +14,26 @@ btncopiaECola.addEventListener('click', () => {
     copiaECola()
 
 });
+
+/*
+const btncopiaECola = document.getElementById('copiaECola');
+const saida = document.getElementById('saida');
+const entrada = document.getElementById('entrada');
+const aviso = document.getElementById('aviso');
+
+function copiaECola() {
+  const text = saida.value;
+  
+  navigator.clipboard.writeText(text)
+    .then(() => {
+      saida.value = '';
+      entrada.value = text;
+      aviso.innerHTML = '&nbsp;';
+    })
+    .catch((error) => {
+      console.error('Erro ao copiar para a área de transferência:', error);
+    });
+}
+
+btncopiaECola.addEventListener('click', copiaECola);
+*/
