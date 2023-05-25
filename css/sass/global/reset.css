@@ -12,9 +12,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @font-face {
-    font-family:'roboto';
-    src: url('../assets/fonts/roboto.ttf');
-}
+    font-family: 'Roboto';
+    src: url('/assets/fonts/roboto.ttf') format('truetype');
+  }
 
 
 
